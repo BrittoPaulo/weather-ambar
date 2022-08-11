@@ -14,7 +14,7 @@ import "./index.css";
 function index({ city, weather, updateWeather, updateCity }) {
   const [loading, setLoading] = useState(false);
   const [alert, setAlert] = useState({
-    severity: "",
+    severity: null,
     open: false,
     message: "",
   });
@@ -61,7 +61,7 @@ function index({ city, weather, updateWeather, updateCity }) {
     });
     setTimeout(() => {
       setAlert({
-        severity: "",
+        severity: null,
         open: false,
         message: "",
       });
