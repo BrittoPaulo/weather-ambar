@@ -1,0 +1,46 @@
+.div-row{
+  display: flex;
+  flex-direction: column;
+}
+.city{
+  font-size: 24px;
+  font-weight: 500;
+  display: block;
+  line-height: 25px;
+}
+
+.description{
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.tempe{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+
+.tempe-min-max{
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  margin-top: -10px;
+}
+
+.div-max-min{
+  padding: 0 24px;
+}
+
+
+.flex{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: unset;
+}
