@@ -23,3 +23,19 @@ Para a montagem de tela foi utilizado os frameworks:
   https://mui.com/
 ```
 
+## Clonar Projeto
+```shell
+  git clone https://github.com/BrittoPaulo/weather-ambar/
+```
+## Instalar pacotes 
+```shell
+  npm install / yarn install
+```
+
+## Executar
+```shell
+  npm run start
+```
+
+
+
